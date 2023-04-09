@@ -1,0 +1,14 @@
+  .movie-details {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+  }

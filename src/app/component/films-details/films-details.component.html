@@ -1,0 +1,12 @@
+<div class="movie-details" *ngIf="movie">
+    <h2>{{ movie.title }}</h2>
+    <p>{{ movie.overview }}</p>
+    <p>Date de sortie : {{ movie.release_date }}</p>
+    <p>Note : {{ movie.vote_average }}/10</p>
+    <img src="https://image.tmdb.org/t/p/w500%7B%7B {{ movie.poster_path }}" alt="{{ movie.title }}" />
+
+  <div class="movie-navigation">
+    <button class="btn btn-danger" (click)="precedent()">Précédent</button>&nbsp;
+    <button class="btn btn-primary" (click)="suivant()">Suivant</button>
+  </div>
+</div>

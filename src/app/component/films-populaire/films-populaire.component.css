@@ -1,0 +1,35 @@
+.populaire ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .populaire li {
+    width: 23%;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .populaire li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .populaire h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .populaire p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+  }
+  
